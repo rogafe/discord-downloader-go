@@ -32,7 +32,8 @@ var (
 	imgStore *duplo.Store
 	loop     chan os.Signal
 
-	twitterConnected     bool
+	twitterConnected bool
+	// twitterScrapper      bool
 	googleDriveConnected bool
 	googleDriveService   *drive.Service
 

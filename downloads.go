@@ -206,6 +206,7 @@ func getDownloadLinks(inputURL string, channelID string) map[string]string {
 
 	if regexUrlTwitter.MatchString(inputURL) {
 		links, err := getTwitterUrls(inputURL)
+
 		if err != nil {
 			if !strings.Contains(err.Error(), "suspended") {
 				log.Println(logPrefixErrorHere, color.RedString("Twitter Media fetch failed for %s -- %s", inputURL, err))

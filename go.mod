@@ -21,9 +21,11 @@ require (
 	github.com/hashicorp/go-version v1.3.0
 	github.com/kennygrant/sanitize v1.2.4
 	github.com/muhammadmuzzammil1998/jsonc v0.0.0-20201229145248-615b0916ca38
+	github.com/n0madic/twitter-scraper v0.0.0-20220124081915-396358bd501b
 	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646 // indirect
 	github.com/rivo/duplo v0.0.0-20180323201418-c4ec823d58cd
-	golang.org/x/net v0.0.0-20210505214959-0714010a04ed
+	github.com/smartystreets/goconvey v1.7.2 // indirect
+	golang.org/x/net v0.0.0-20211206223403-eba003a116a9
 	golang.org/x/oauth2 v0.0.0-20210427180440-81ed05c6b58c
 	google.golang.org/api v0.46.0
 	gopkg.in/ini.v1 v1.62.0
